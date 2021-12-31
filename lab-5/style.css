@@ -1,0 +1,197 @@
+body{
+	margin:0;
+	font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+
+.container{
+
+	
+	height:720px;
+	width:100%;
+	position:relative;
+}
+              /*** sec-1***/
+
+.container_1{
+
+	background-color:#112031;
+	width:53.4%;
+	position: absolute;
+	padding-right:100px;
+     height:758px;
+}
+
+.img-1{
+	padding: 63px;
+	
+}
+
+
+h1{
+	color:white;
+	padding-left:63px;
+	font-weight:100;
+	font-size:40px;
+}
+
+h2{
+	color:#345B63;
+	padding-left:65px;
+	padding-bottom:30px;
+	font-weight: lighter;
+}
+
+
+p{
+	color:#345B63;
+	padding-left:65px;
+}
+
+.btn-1{
+	color:white;
+	margin-left:65px;
+	margin-top:20px;
+  padding:10px 20px 10px 20px ;  
+  background-color:#34BE82;
+  border-style: none;
+}
+
+.btn-1:hover{
+	 background-color:#6D8299;
+     color:white;
+
+
+}
+
+                     /*** sec-2***/
+
+.container_2{
+	height:758px;
+	background-color:#34BE82;
+	width:40%;    
+	position:absolute;
+	right:0;
+	margin-left:30px;
+}
+
+.tile{
+	margin-top:230px;
+	margin-left:10px;
+	color:white;
+}
+
+.form-control{
+	background-color:#34BE82;
+	border-style: none;
+	border-bottom:1px solid white;
+	padding:20px 150px 20px 20px ;
+	margin:20px 0 0 60px;
+}
+
+.arg{
+	
+  
+	margin-top:20px;
+}
+
+.form-control:hover{
+	background-color:white;
+	border-radius:5px;
+	
+	}
+
+
+
+.btn-2{
+	color:#34BE82;
+	border-style:none;
+	background-color: white;
+	margin:30px 0 0 60px;
+	padding:10px 30px 10px 30px ;  
+	color: #0aa675;
+}
+
+.btn-2:hover{
+     background-color:#6D8299;
+     color:white;
+}
+
+.link-1{
+	text-decoration: none;
+	color:white;
+	padding-left:20px;
+
+}
+
+.link-1:hover{
+	color:lightblue;
+}
+
+ul{
+	padding:80px 0 30px 40px;
+	margin:0;
+
+}
+
+li{
+	text-decoration: none;
+	font-size:14px;
+	list-style:none;
+	display: inline;
+	margin-left:15px;
+
+}
+
+a{   color:#345B63;
+	text-decoration: none;
+
+}
+
+@media (max-width : 1072px){
+
+	.container_1{
+        
+         height:900px;
+
+	}
+	.container_2{
+		height:900px;
+	}
+	.form-control{
+		padding:10px 20px 10px 30px ;  
+	}
+	ul{
+	padding:80px 0 30px 20px;
+	margin:0;
+
+    }
+
+}
+
+@media (max-width :807px){
+
+	.tile{
+		margin-left:10px;
+	}
+
+	.link-1{
+	float:right;
+	margin-top:40px;
+
+     }
+
+}
+
+@media (max-width :663px){
+  
+     .form-control{
+		padding:10px 0px 10px 30px ;  
+	}
+
+
+}
