@@ -1,0 +1,86 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  list-style:none;
+  text-decoration:none;
+}
+
+body{
+  font-family:cursive;
+  background:#323232;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+  height:100vh;
+}
+
+li{
+  margin:60px;
+}
+
+#bdr{
+
+  padding:20px 40px;
+  border-radius:10px;
+  cursor:pointer;
+  color:black;
+
+}
+
+#bdr-1{
+  padding:20px 40px;
+  border-radius:10px;
+  cursor:pointer;
+  color:black;
+}
+
+#bdr-1:hover{
+  color:white;
+}
+
+
+
+.glow-1:hover{
+   color: rgba(255, 255, 255, 1);
+   border:1px solid white;
+   background:#85C88A;
+   transition:1s;
+   box-shadow: 0 5px 15px rgba(255,255,255, 0.4);
+}
+
+.glow-2:hover{
+   color: rgba(255, 255, 255, 1);
+   border:1px solid white;
+   background:#D82148;
+   transition:1s;
+   box-shadow: 0 5px 15px rgba(255,255,255, 0.4);
+}
+
+.glow-3:hover{
+   color: rgba(255, 255, 255, 1);
+   border:1px solid white;
+   transition:1s;
+   background:#FFD365;
+   box-shadow: 0 5px 15px rgba(255,255,255, 0.4);
+}
+.glow-4:hover{
+   color:rgba(255, 255, 255, 1);
+   border:1px solid white;
+   transition:1s;
+   background:#ECECEC;
+   box-shadow: 0 5px 15px rgba(255,255,255, 0.4);
+}
+
+.glow-5:hover{
+   color: rgba(255, 255, 255, 1);
+   border:1px solid white;
+   transition:1s;
+   background:#141E27;
+   box-shadow: 0 5px 15px rgba(255,255,255, 0.4);
+
+}
